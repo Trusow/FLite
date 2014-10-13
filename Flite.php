@@ -1,5 +1,5 @@
 <?
-class Flite extends CFormModel{
+class Flite{
 	public function Parse($file, $flite = 'flite'){
 		$fp = fopen($file,'rt');
 		if(!$fp){
